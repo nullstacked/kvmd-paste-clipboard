@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = kvmd
+
+[Action]
+Description = Applying kvmd-paste-clipboard patches...
+When = PostTransaction
+Exec = /usr/share/kvmd-paste-clipboard/apply-patches.sh

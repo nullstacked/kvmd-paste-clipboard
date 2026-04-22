@@ -1,0 +1,13 @@
+post_install() {
+    echo ">>> Running kvmd-paste-clipboard patches..."
+    /usr/share/kvmd-paste-clipboard/apply-patches.sh
+}
+
+post_upgrade() {
+    echo ">>> Running kvmd-paste-clipboard patches..."
+    /usr/share/kvmd-paste-clipboard/apply-patches.sh
+}
+
+pre_remove() {
+    echo ">>> kvmd-paste-clipboard removed. Run 'pacman -S kvmd' to restore original files."
+}
