@@ -20,7 +20,7 @@ Floating paste-from-clipboard button for PiKVM Web UI. One click = reads your cl
 ```bash
 makepkg -si
 # Or:
-pacman -U kvmd-paste-clipboard-1.0.0-1-any.pkg.tar.zst
+pacman -U kvmd-paste-clipboard-1.0.1-1-any.pkg.tar.zst
 ```
 
 ## CSS customization

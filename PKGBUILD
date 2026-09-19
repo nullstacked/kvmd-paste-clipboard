@@ -1,6 +1,6 @@
 # Maintainer: nullstacked
 pkgname=kvmd-paste-clipboard
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Floating paste-from-clipboard button for PiKVM Web UI"
 arch=('any')

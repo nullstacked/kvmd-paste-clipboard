@@ -1,9 +1,10 @@
 :root {
+	/* 2026-09-19: tab 16 -> 28 px wide, icon 12 -> 16 px, so it is a thumb target on a phone; height unchanged so the stack spacing holds */
 	--cs-paste-clip-bg: rgba(30,30,30,0.85);
 	--cs-paste-clip-bg-hover: rgba(60,60,60,1);
 	--cs-paste-clip-fg: rgba(255,255,255,0.85);
 	--cs-paste-clip-fg-hover: rgba(255,255,255,1);
-	--cs-paste-clip-width: 16px;
+	--cs-paste-clip-width: 28px;
 	--cs-paste-clip-height: 30px;
 	--cs-paste-clip-top: 135px;  /* below gear at 100px (30px tall) + 5px gap */
 }
@@ -41,8 +42,8 @@
 }
 
 .paste-clip-btn svg {
-	width: 12px;
-	height: 12px;
+	width: 16px;
+	height: 16px;
 	fill: currentColor;
 	pointer-events: none;
 }
